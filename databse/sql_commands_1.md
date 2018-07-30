@@ -1,19 +1,19 @@
-// to connect to database using cmd/terminal
+#### to connect to database using cmd/terminal
 $ mysql -u <username> -p
 
-// to show all the database
+#### to show all the database
 $ show databases;
 
-// to create database
+#### to create database
 $ create database greg_list;
 
-// to use database
+#### to use database
 $ use greg_list;
 
-// to show all the tables in database
+#### to show all the tables in database
 $ show tables;
 
-// to create tables 
+#### to create tables
 $ CREATE TABLE my_contacts (
 		last_name VARCHAR(30),
 		first_name VARCHAR(30),
@@ -27,16 +27,16 @@ $ CREATE TABLE my_contacts (
 		seeking VARCHAR(100)
 	);
 
-// to describe the table
+#### to describe the table
 $ DESC my_contacts;
 
-// drop table -- deletes table and any data init
+#### drop table -- deletes table and any data init
 $ DROP TABLE my_contacts;
 
 
-// To add data to your table
+#### To add data to your table
 
-$ INSERT INTO my_contacts 
+$ INSERT INTO my_contacts
 		(last_name, first_name, email, gender, birthday,
 		profession, location, status, interests, seeking)
 		VALUES
@@ -51,9 +51,11 @@ $ INSERT INTO my_contacts (
 );
 
 
-// desc only show the structures of table, not the data
-// to get the data from table use SELECT
+#### desc only show the structures of table, not the data
+#### to get the data from table use SELECT
+
 $ SELECT * FROM my_contacts;
+
 
 
 
